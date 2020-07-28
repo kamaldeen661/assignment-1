@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title> Contact Form </title>
+    <h2 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Form</h2>
+    <style> 
+        input[type=text], select, textarea {
+          width: 100%; 
+          padding: 12px; 
+          border: 2px solid rgb(206, 202, 202); 
+          border-radius: 4px; 
+          box-sizing: border-box;
+          margin-top: 6px; 
+          margin-bottom: 18px; 
+        
+        }
+label {font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;}
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+body {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+}        
+
+
+    </style>
+</head>
+<body>
+    <div>
+<form>
+<label> First Name </label> <br> 
+<input type="text" placeholder="first name....."> <br>
+<label> Last Name </label> <br>
+<input type="text" placeholder=" last name....."> <br>
+
+<label>  Select Country </label> <br>
+<select id="country" name="country">
+    
+    <option value="Australia"> Australia</option>
+    <option value="USA"> U</option>
+    <option value="TOGO"> Togo </option>
+    <option value="GHANA"> Ghana</option>
+</select>
+<br>
+<label> Subject </label> <br>
+<textarea id="subject" name="subject" placeholder="subject" style="height:200px"></textarea> <br>
+
+<input type="submit" value="submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
